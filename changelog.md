@@ -1,3 +1,14 @@
+### [27.08.2025]
+* Monitor updates:
+    * FindFixAndRun hook: Internal cmd.exe hook targeting 'Exorcism' api FindFixAndRun for batch deobfuscation (thanks @KingKDot and @KillerInstinct)
+    * Remove Scylla code preventing dumping of MEW executables (thanks @shuiyc)
+
+### [18.08.2025]
+* Monitor update: YaraHarness: fix issue with ParseOptionLine() adding imagebase to sysbps (thanks @ClaudioWayne)
+
+### [13.08.2025]
+* Monitor update: Fix internal WMI_GetObjectAsync yara
+
 ### [05.08.2025]
 * Monitor updates:
     * Enhance dynamic patching capability: new PatchBytes() function, submission/yara option patch=<address>:<bytes>
